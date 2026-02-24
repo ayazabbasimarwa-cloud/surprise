@@ -449,4 +449,12 @@ Next Surprise
         window.addEventListener('resize', handleResize);
         handleResize();
     </script>
-</body></html>
+window.addEventListener("click", function(){
+    let audio = document.querySelector("audio");
+    if(audio){
+        audio.play();
+    }
+}, { once: true });
+</script>
+</body>
+</html>
